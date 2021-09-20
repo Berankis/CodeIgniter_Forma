@@ -1,0 +1,327 @@
+CRITICAL - 2021-09-20 02:07:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 C:\wamp64\www\app\Controllers\Home.php(11): App\Models\comments_model->get_comments()
+#1 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 02:08:09 --> Call to a member function findAll() on null
+#0 C:\wamp64\www\app\Controllers\Home.php(11): App\Models\comments_model->get_comments()
+#1 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 02:08:15 --> Call to a member function get() on null
+#0 C:\wamp64\www\app\Controllers\Home.php(11): App\Models\comments_model->get_comments()
+#1 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 02:08:19 --> Call to a member function get() on null
+#0 C:\wamp64\www\app\Controllers\Home.php(11): App\Models\comments_model->get_comments()
+#1 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 02:08:23 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\system\Model.php(719): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\app\Models\comments_model.php(15): CodeIgniter\Model->__call('get', Array)
+#3 C:\wamp64\www\app\Controllers\Home.php(11): App\Models\comments_model->get_comments()
+#4 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-20 02:08:36 --> syntax error, unexpected 'protected' (T_PROTECTED)
+#0 C:\wamp64\www\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\a...')
+#1 C:\wamp64\www\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\comm...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\comm...')
+#3 C:\wamp64\www\app\Controllers\Home.php(9): spl_autoload_call('App\\Models\\comm...')
+#4 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-20 02:10:34 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\system\Model.php on line 184
+#0 C:\wamp64\www\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\wamp64\www\app\Models\comments_model.php(17): CodeIgniter\BaseModel->findAll()
+#3 C:\wamp64\www\app\Controllers\Home.php(11): App\Models\comments_model->get_comments()
+#4 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-20 02:11:14 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in C:\wamp64\www\system\Model.php on line 210
+#0 C:\wamp64\www\system\Model.php(210): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 C:\wamp64\www\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#2 C:\wamp64\www\app\Models\comments_model.php(17): CodeIgniter\BaseModel->first()
+#3 C:\wamp64\www\app\Controllers\Home.php(11): App\Models\comments_model->get_comments()
+#4 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-20 02:11:14 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in C:\wamp64\www\system\Model.php on line 210
+#0 C:\wamp64\www\system\Model.php(210): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 C:\wamp64\www\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#2 C:\wamp64\www\app\Models\comments_model.php(17): CodeIgniter\BaseModel->first()
+#3 C:\wamp64\www\app\Controllers\Home.php(11): App\Models\comments_model->get_comments()
+#4 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-20 02:11:30 --> Call to undefined method App\Models\comments_model::db_connect
+#0 C:\wamp64\www\app\Models\comments_model.php(11): CodeIgniter\Model->__call('db_connect', Array)
+#1 C:\wamp64\www\app\Controllers\Home.php(9): App\Models\comments_model->__construct()
+#2 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#3 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-20 02:11:38 --> Call to undefined method App\Models\comments_model::db_connect
+#0 C:\wamp64\www\app\Models\comments_model.php(18): CodeIgniter\Model->__call('db_connect', Array)
+#1 C:\wamp64\www\app\Controllers\Home.php(11): App\Models\comments_model->get_comments()
+#2 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#3 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-20 02:11:44 --> Call to a member function db_connect() on null
+#0 C:\wamp64\www\app\Controllers\Home.php(11): App\Models\comments_model->get_comments()
+#1 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 02:12:23 --> Call to undefined method App\Models\comments_model::getNumRows
+#0 C:\wamp64\www\app\Models\comments_model.php(18): CodeIgniter\Model->__call('getNumRows', Array)
+#1 C:\wamp64\www\app\Controllers\Home.php(11): App\Models\comments_model->get_comments()
+#2 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#3 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-20 02:15:02 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in C:\wamp64\www\system\Model.php on line 143
+#0 C:\wamp64\www\system\Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 C:\wamp64\www\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 'lukas')
+#2 C:\wamp64\www\app\Models\comments_model.php(18): CodeIgniter\BaseModel->find('lukas')
+#3 C:\wamp64\www\app\Controllers\Home.php(11): App\Models\comments_model->get_comments()
+#4 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-20 02:15:14 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in C:\wamp64\www\system\Model.php on line 143
+#0 C:\wamp64\www\system\Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 C:\wamp64\www\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 'lukas')
+#2 C:\wamp64\www\app\Models\comments_model.php(18): CodeIgniter\BaseModel->find('lukas')
+#3 C:\wamp64\www\app\Controllers\Home.php(11): App\Models\comments_model->get_comments()
+#4 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-20 02:15:19 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in C:\wamp64\www\system\Model.php on line 143
+#0 C:\wamp64\www\system\Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 C:\wamp64\www\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 5)
+#2 C:\wamp64\www\app\Models\comments_model.php(18): CodeIgniter\BaseModel->find(5)
+#3 C:\wamp64\www\app\Controllers\Home.php(11): App\Models\comments_model->get_comments()
+#4 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-20 02:15:23 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\system\Model.php on line 145
+#0 C:\wamp64\www\system\Model.php(145): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#2 C:\wamp64\www\app\Models\comments_model.php(18): CodeIgniter\BaseModel->find()
+#3 C:\wamp64\www\app\Controllers\Home.php(11): App\Models\comments_model->get_comments()
+#4 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-20 02:15:58 --> Call to a member function db_connect() on null
+#0 C:\wamp64\www\app\Controllers\Home.php(9): App\Models\comments_model->__construct()
+#1 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 02:16:25 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\wamp64\www\system\Model.php on line 145
+#0 C:\wamp64\www\system\Model.php(145): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\wamp64\www\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#2 C:\wamp64\www\app\Models\comments_model.php(15): CodeIgniter\BaseModel->find()
+#3 C:\wamp64\www\app\Controllers\Home.php(11): App\Models\comments_model->get_comments()
+#4 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-20 02:18:54 --> Call to a member function query() on null
+#0 C:\wamp64\www\app\Controllers\Home.php(11): App\Models\comments_model->get_comments()
+#1 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 02:19:17 --> syntax error, unexpected '$db' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\wamp64\www\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\a...')
+#1 C:\wamp64\www\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\comm...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\comm...')
+#3 C:\wamp64\www\app\Controllers\Home.php(9): spl_autoload_call('App\\Models\\comm...')
+#4 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-20 02:19:29 --> syntax error, unexpected '$db' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\wamp64\www\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\a...')
+#1 C:\wamp64\www\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\comm...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\comm...')
+#3 C:\wamp64\www\app\Controllers\Home.php(9): spl_autoload_call('App\\Models\\comm...')
+#4 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-20 02:19:45 --> syntax error, unexpected '$db' (T_VARIABLE)
+#0 C:\wamp64\www\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\a...')
+#1 C:\wamp64\www\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\comm...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\comm...')
+#3 C:\wamp64\www\app\Controllers\Home.php(9): spl_autoload_call('App\\Models\\comm...')
+#4 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-20 02:20:28 --> syntax error, unexpected '$test' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\wamp64\www\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\a...')
+#1 C:\wamp64\www\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\comm...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\comm...')
+#3 C:\wamp64\www\app\Controllers\Home.php(9): spl_autoload_call('App\\Models\\comm...')
+#4 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-20 02:20:35 --> syntax error, unexpected '$test' (T_VARIABLE)
+#0 C:\wamp64\www\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\a...')
+#1 C:\wamp64\www\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\comm...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\comm...')
+#3 C:\wamp64\www\app\Controllers\Home.php(9): spl_autoload_call('App\\Models\\comm...')
+#4 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-20 02:20:55 --> syntax error, unexpected '$test' (T_VARIABLE)
+#0 C:\wamp64\www\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\a...')
+#1 C:\wamp64\www\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\comm...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\comm...')
+#3 C:\wamp64\www\app\Controllers\Home.php(9): spl_autoload_call('App\\Models\\comm...')
+#4 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-20 02:21:27 --> Access level to App\Models\comments_model::$db must be protected (as in class CodeIgniter\Model) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-20 02:21:37 --> Access level to App\Models\comments_model::$db must be protected (as in class CodeIgniter\Model) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-20 02:22:21 --> Access level to App\Models\comments_model::$db must be protected (as in class CodeIgniter\Model) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-20 02:22:30 --> Call to a member function query() on null
+#0 C:\wamp64\www\app\Controllers\Home.php(11): App\Models\comments_model->get_comments()
+#1 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 02:22:40 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-20 02:28:39 --> Creating default object from empty value
+#0 C:\wamp64\www\app\Models\comments_model.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', 'C:\\wamp64\\www\\a...', 17, Array)
+#1 C:\wamp64\www\app\Controllers\Home.php(11): App\Models\comments_model->get_comments()
+#2 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#3 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-20 03:11:25 --> Class 'App\Controllers\comments_model' not found
+#0 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#1 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-20 03:18:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::hasError()
+#0 C:\wamp64\www\app\Controllers\Home.php(23): App\Models\comments_model->save_comment('Lukas Juozas \xC4\x8C...', 'lciuplys@gmail....', 'asdasdasd', '20 Sep 2021 11:...')
+#1 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->test()
+#2 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 03:18:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::hasError()
+#0 C:\wamp64\www\app\Controllers\Home.php(23): App\Models\comments_model->save_comment('Lukas Juozas \xC4\x8C...', 'lciuplys@gmail....', 'asdasdasd', '20 Sep 2021 11:...')
+#1 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->test()
+#2 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 03:19:40 --> Call to a member function hasError() on bool
+#0 C:\wamp64\www\app\Controllers\Home.php(23): App\Models\comments_model->save_comment('Lukas Juozas \xC4\x8C...', 'lciuplys@gmail....', 'asdasdasd', '20 Sep 2021 11:...')
+#1 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->test()
+#2 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-09-20 03:20:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1
+CRITICAL - 2021-09-20 03:21:05 --> Call to a member function error() on bool
+#0 C:\wamp64\www\app\Controllers\Home.php(23): App\Models\comments_model->save_comment('Lukas Juozas \xC4\x8C...', 'lciuplys@gmail....', 'asdasdasd', '20 Sep 2021 11:...')
+#1 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->test()
+#2 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-09-20 03:22:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1
+ERROR - 2021-09-20 03:23:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1
+ERROR - 2021-09-20 03:25:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asdasdasd\''','20 Sep 2021 11:25:10')' at line 1
+ERROR - 2021-09-20 03:25:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asdasdasd'','20 Sep 2021 11:25:13')' at line 1
+CRITICAL - 2021-09-20 03:29:59 --> addslashes() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'addslashes() ex...', 'C:\\wamp64\\www\\a...', 14, Array)
+#1 C:\wamp64\www\app\Models\comments_model.php(14): addslashes(Array)
+#2 C:\wamp64\www\app\Controllers\Home.php(11): App\Models\comments_model->get_comments()
+#3 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-20 03:31:06 --> syntax error, unexpected ';', expecting ')'
+#0 C:\wamp64\www\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\system\Common.php(1092): CodeIgniter\View\View->render('main', Array, true)
+#2 C:\wamp64\www\app\Controllers\Home.php(14): view('main', Array)
+#3 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-20 03:33:34 --> syntax error, unexpected ')', expecting ',' or ';'
+#0 C:\wamp64\www\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\system\Common.php(1092): CodeIgniter\View\View->render('main', Array, true)
+#2 C:\wamp64\www\app\Controllers\Home.php(14): view('main', Array)
+#3 C:\wamp64\www\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\wamp64\www\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-09-20 03:37:42 --> Unknown column 'comment' in 'field list'
